@@ -8,8 +8,7 @@ Group:          Applications/Multimedia
 # is that some files (some Qt utility classes) are LGPL.
 License:        GPLv3+ and LGPLv2+
 URL:            http://flavio.tordini.org/musique
-#Source0:        http://flavio.tordini.org/files/%{name}/%{name}.tar.gz
-Source0:        https://github.com/flaviotordini/%{name}/archive/%{name}-%{version}.tar.gz
+Source0:        https://github.com/flaviotordini/%{name}/archive/%{version}.tar.gz
 # Add a copy of the license LGPL because upstream removed it
 Source1:        LICENSE.LGPL
 Patch0:         %{name}-1.5-qtsingleapp.patch
