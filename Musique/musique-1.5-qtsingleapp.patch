@@ -1,0 +1,14 @@
+diff -up ./musique.pro.orig ./musique.pro
+--- ./musique.pro.orig	2016-12-12 22:24:11.000000000 +0100
++++ ./musique.pro	2017-07-20 17:39:27.943149047 +0200
+@@ -18,7 +18,9 @@ TARGET = $${APP_UNIX_NAME}
+ 
+ QT += network sql widgets
+ 
+-include(src/qtsingleapplication/qtsingleapplication.pri)
++#include(src/qtsingleapplication/qtsingleapplication.pri)
++CONFIG += qtsingleapplication
++
+ include(src/http/http.pri)
+ include(src/tags/tags.pri)
+ 
