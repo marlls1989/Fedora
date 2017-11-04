@@ -1,6 +1,6 @@
 Name:           musique
 Version:        1.5
-Release:        0%{?dist}
+Release:        1%{?dist}
 Summary:        A music player designed by and for people that love music
 
 Group:          Applications/Multimedia
@@ -13,7 +13,6 @@ Source0:        https://github.com/flaviotordini/%{name}/archive/%{version}.tar.
 Source1:        LICENSE.LGPL
 Patch0:         %{name}-1.5-qtsingleapp.patch
 
-BuildRequires:  qt5-devel
 BuildRequires:  taglib-devel
 BuildRequires:  phonon-qt5-devel
 BuildRequires:  qtsingleapplication-qt5-devel
