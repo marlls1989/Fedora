@@ -145,6 +145,9 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %dir %{_datadir}/%{name}/locale
 
 %changelog
+* Sat Nov 04 2017 Marcos Sartori <msartori@ieee.org> 1.5-1
+- Remove qt5-devel requirement, unavailable on epel7
+
 * Sat Nov 04 2017 Marcos Sartori <msartori@ieee.org> 1.5-0
 - new package built with tito
 
