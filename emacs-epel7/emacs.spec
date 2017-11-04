@@ -490,6 +490,9 @@ update-desktop-database &> /dev/null || :
 %dir %{_datadir}/emacs/site-lisp/site-start.d
 
 %changelog
+* Sat Nov 04 2017 Marcos Sartori <msartori@ieee.org> 24.5-10
+- new package built with tito
+
 * Mon Apr 11 2016 Jan Synáček <jsynacek@redhat.com> - 1:24.5-10
 - eww form submission fails in google search (#1325639)
 
