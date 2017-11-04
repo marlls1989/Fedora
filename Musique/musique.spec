@@ -146,6 +146,9 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %dir %{_datadir}/%{name}/locale
 
 %changelog
+* Sat Nov 04 2017 Marcos Sartori <msartori@ieee.org> 1.5-0
+- new package built with tito
+
 * Thu Jul 20 2017 Gael <melankh@gmail.com> - 1.5-0
 - Updated to new upstream version 1.5
 
